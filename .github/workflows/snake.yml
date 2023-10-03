@@ -18,11 +18,16 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN_SNAKE_ANIMATION }}
           OUTPUT: snake.svg
+          
+      - name: List Files
+        run: |
+          ls -la  # List files in the current directory
+          ls -la dist/  # List files in the 'dist' directory
 
       - name: Commit and Push Changes
         run: |
           git config user.name "mickey4653"
           git config user.email "adeniyimichaelid@gmail.com"
-          git add snake.svg
+          git add dist/snake.svg
           git commit -m "Update snake contributions graph"
           git push origin main  # Replace 'main' with your default branch name
