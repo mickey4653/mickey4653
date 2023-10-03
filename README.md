@@ -1,5 +1,5 @@
 <p align="center">Hi 👋! My name is Michael Adeniyi and I'm a Software Engineer who is insightful, results-driven, and skilled with various programming tools. Possess a broad understanding of coding and programming languages and the skills to quickly learn and master new technology with a high desire to grow into leadership and knowledge in developing his software engineering skills. Also, possess soft solid skills, attention to detail, problem-solving, and communication skills.</p>
-<hr>
+---
 ###
 
 <p align="center">My Skills are listed below and you can reach me via my social media handles especially through my LinkedIn profile;</p>
@@ -82,7 +82,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="47" height="35" alt="gmail logo"  />
   </a>
 </div>
-<hr>
+
 ###
 
 <br clear="both">
@@ -90,7 +90,7 @@
 <img src="https://raw.githubusercontent.com/mickey4653/mickey4653/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 
 ###
-
+---
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mickey4653&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph"  />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mickey4653&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
