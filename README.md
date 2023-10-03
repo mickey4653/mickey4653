@@ -1,5 +1,5 @@
 <p align="center">Hi 👋! My name is Michael Adeniyi and I'm a Software Engineer who is insightful, results-driven, and skilled with various programming tools. Possess a broad understanding of coding and programming languages and the skills to quickly learn and master new technology with a high desire to grow into leadership and knowledge in developing his software engineering skills. Also, possess soft solid skills, attention to detail, problem-solving, and communication skills.</p>
-
+-----
 ###
 
 <p align="center">My Skills are listed below and you can reach me via my social media handles especially through my LinkedIn profile;</p>
@@ -82,7 +82,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="47" height="35" alt="gmail logo"  />
   </a>
 </div>
-
+-----
 ###
 
 <br clear="both">
