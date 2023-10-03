@@ -14,10 +14,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Generate Snake Contributions
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           GITHUB_TOKEN: ${{ secrets.PAT_TOKEN_SNAKE_ANIMATION }}
-          OUTPUT: snake.svg
+          OUTPUT: dist/snake.svg
           
       - name: List Files
         run: |
