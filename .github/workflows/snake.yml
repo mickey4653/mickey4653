@@ -18,7 +18,7 @@ jobs:
       - name: generate snake.svg
         uses: Platane/snk/svg-only@v2
         with:
-          github_user_name: github.mickey4653
+          github_user_name: ${{github.mickey4653}}
           outputs: dist/snake.svg
 
 
@@ -28,5 +28,5 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: secrets.PAT_TOKEN_SNAKE_ANIMATION
+          GITHUB_TOKEN: ${{secrets.PAT_TOKEN_SNAKE_ANIMATION}}
           REPO_URL: https://github.com/mickey4653/mickey4653.git
