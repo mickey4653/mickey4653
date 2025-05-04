@@ -119,6 +119,11 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=mickey4653.mickey4653&"  />
 </div>
 
+<h2 align="center">📂 Recent GitHub Repositories</h2>
+
+<!-- START_SECTION:recent-repositories -->
+<!-- END_SECTION:recent-repositories -->
+
 <h2 align="center">🚀 Featured Projects</h2>
 
 <div align="left">

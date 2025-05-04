@@ -1,0 +1,123 @@
+name: Update Recent Repositories
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every day at midnight
+    - cron: '0 0 * * *'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Create update script
+        run: |
+          cat > update-repos.js << 'EOL'
+          const fs = require('fs');
+          const https = require('https');
+          
+          // GitHub username
+          const username = 'mickey4653';
+          
+          // Number of repositories to display
+          const repoCount = 4;
+          
+          // GitHub API request options
+          const options = {
+            hostname: 'api.github.com',
+            path: `/users/${username}/repos?sort=updated&per_page=${repoCount}`,
+            method: 'GET',
+            headers: {
+              'User-Agent': 'Node.js GitHub README Updater',
+              'Accept': 'application/vnd.github.v3+json'
+            }
+          };
+          
+          // Make the request to GitHub API
+          const req = https.request(options, res => {
+            let data = '';
+            
+            res.on('data', chunk => {
+              data += chunk;
+            });
+            
+            res.on('end', () => {
+              try {
+                const repos = JSON.parse(data);
+                // Format repositories as HTML
+                let repoHTML = '<div align="center">\n';
+                
+                // Add repositories in pairs
+                for (let i = 0; i < repos.length; i += 2) {
+                  repoHTML += '  <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">\n';
+                  
+                  // First repo in the pair
+                  const repo1 = repos[i];
+                  repoHTML += `    <a href="${repo1.html_url}" style="width: 49%;">\n`;
+                  repoHTML += `      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo1.name}&theme=dracula" width="100%" />\n`;
+                  repoHTML += '    </a>\n';
+                  
+                  // Second repo in the pair (if exists)
+                  if (i + 1 < repos.length) {
+                    const repo2 = repos[i + 1];
+                    repoHTML += `    <a href="${repo2.html_url}" style="width: 49%;">\n`;
+                    repoHTML += `      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo2.name}&theme=dracula" width="100%" />\n`;
+                    repoHTML += '    </a>\n';
+                  }
+                  
+                  repoHTML += '  </div>\n';
+                }
+                
+                repoHTML += '</div>\n\n';
+                repoHTML += '<p align="center">\n';
+                repoHTML += `  <a href="https://github.com/${username}?tab=repositories">View All Repositories</a>\n`;
+                repoHTML += '</p>';
+                
+                // Read README.md file
+                const readmePath = './README.md';
+                const readme = fs.readFileSync(readmePath, 'utf8');
+                
+                // Replace content between markers
+                const startMarker = '<!-- START_SECTION:recent-repositories -->';
+                const endMarker = '<!-- END_SECTION:recent-repositories -->';
+                
+                const startIndex = readme.indexOf(startMarker) + startMarker.length;
+                const endIndex = readme.indexOf(endMarker);
+                
+                if (startIndex !== -1 && endIndex !== -1) {
+                  const newReadme = readme.substring(0, startIndex) + '\n' + repoHTML + '\n' + readme.substring(endIndex);
+                  fs.writeFileSync(readmePath, newReadme);
+                  console.log('README.md updated successfully!');
+                } else {
+                  console.error('Could not find section markers in README.md');
+                }
+              } catch (error) {
+                console.error('Error processing GitHub API response:', error);
+              }
+            });
+          });
+          
+          req.on('error', error => {
+            console.error('Error fetching repositories:', error);
+          });
+          
+          req.end();
+          EOL
+          
+      - name: Update README with recent repositories
+        run: node update-repos.js
+        
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "readme-bot@github.com"
+          git config --global user.name "README Bot"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update recent repositories"
+          git push 
