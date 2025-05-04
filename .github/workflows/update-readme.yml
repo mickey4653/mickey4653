@@ -52,27 +52,14 @@ jobs:
               try {
                 const repos = JSON.parse(data);
                 // Format repositories as HTML
-                let repoHTML = '<div align="center">\n';
+                let repoHTML = '<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">\n';
                 
-                // Add repositories in pairs
-                for (let i = 0; i < repos.length; i += 2) {
-                  repoHTML += '  <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">\n';
-                  
-                  // First repo in the pair
-                  const repo1 = repos[i];
-                  repoHTML += `    <a href="${repo1.html_url}" style="width: 49%;">\n`;
-                  repoHTML += `      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo1.name}&theme=dracula" width="100%" />\n`;
-                  repoHTML += '    </a>\n';
-                  
-                  // Second repo in the pair (if exists)
-                  if (i + 1 < repos.length) {
-                    const repo2 = repos[i + 1];
-                    repoHTML += `    <a href="${repo2.html_url}" style="width: 49%;">\n`;
-                    repoHTML += `      <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo2.name}&theme=dracula" width="100%" />\n`;
-                    repoHTML += '    </a>\n';
-                  }
-                  
-                  repoHTML += '  </div>\n';
+                // Add repositories in a horizontal row
+                for (let i = 0; i < repos.length; i++) {
+                  const repo = repos[i];
+                  repoHTML += `  <a href="${repo.html_url}" style="flex: 0 0 auto; width: 45%; margin: 5px;">\n`;
+                  repoHTML += `    <img src="https://github-readme-stats.vercel.app/api/pin/?username=${username}&repo=${repo.name}&theme=dracula" width="100%" />\n`;
+                  repoHTML += '  </a>\n';
                 }
                 
                 repoHTML += '</div>\n\n';
