@@ -122,6 +122,28 @@
 <h2 align="center">📂 Recent GitHub Repositories</h2>
 
 <!-- START_SECTION:recent-repositories -->
+<div align="center">
+  <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+    <a href="https://github.com/mickey4653/mickey4653" style="width: 49%;">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
+    </a>
+    <a href="https://github.com/mickey4653/bug-sage" style="width: 49%;">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=bug-sage&theme=dracula" width="100%" />
+    </a>
+  </div>
+  <div style="display: flex; justify-content: center; gap: 10px; margin-bottom: 10px;">
+    <a href="https://github.com/mickey4653/mission-quizify" style="width: 49%;">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mission-quizify&theme=dracula" width="100%" />
+    </a>
+    <a href="https://github.com/mickey4653/quantumbot-core-project" style="width: 49%;">
+      <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=quantumbot-core-project&theme=dracula" width="100%" />
+    </a>
+  </div>
+</div>
+
+<p align="center">
+  <a href="https://github.com/mickey4653?tab=repositories">View All Repositories</a>
+</p>
 <!-- END_SECTION:recent-repositories -->
 
 <h2 align="center">🚀 Featured Projects</h2>
