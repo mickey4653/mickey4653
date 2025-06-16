@@ -123,9 +123,6 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <a href="https://github.com/mickey4653/pingchain-app" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=pingchain-app&theme=dracula" width="100%" />
-  </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
   </a>
@@ -134,6 +131,9 @@
   </a>
   <a href="https://github.com/mickey4653/restful-payment-gateway-api" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=restful-payment-gateway-api&theme=dracula" width="100%" />
+  </a>
+  <a href="https://github.com/mickey4653/mission-quizify" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mission-quizify&theme=dracula" width="100%" />
   </a>
 </div>
 
