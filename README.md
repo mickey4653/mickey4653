@@ -126,11 +126,11 @@
   <a href="https://github.com/mickey4653/pingchain" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=pingchain&theme=dracula" width="100%" />
   </a>
-  <a href="https://github.com/mickey4653/sports-scribe-payloadcms-v0" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=sports-scribe-payloadcms-v0&theme=dracula" width="100%" />
-  </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
+  </a>
+  <a href="https://github.com/mickey4653/sports-scribe-payloadcms-v0" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=sports-scribe-payloadcms-v0&theme=dracula" width="100%" />
   </a>
   <a href="https://github.com/mickey4653/bug-sage" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=bug-sage&theme=dracula" width="100%" />
