@@ -123,6 +123,9 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <a href="https://github.com/mickey4653/ai_foundations" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=ai_foundations&theme=dracula" width="100%" />
+  </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
   </a>
@@ -131,9 +134,6 @@
   </a>
   <a href="https://github.com/mickey4653/todo-list-app-backend" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=todo-list-app-backend&theme=dracula" width="100%" />
-  </a>
-  <a href="https://github.com/mickey4653/todo-list-app-frontend" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=todo-list-app-frontend&theme=dracula" width="100%" />
   </a>
 </div>
 
