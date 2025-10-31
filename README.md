@@ -123,17 +123,17 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <a href="https://github.com/mickey4653/ai_foundations" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=ai_foundations&theme=dracula" width="100%" />
+  <a href="https://github.com/mickey4653/fastapi-hello-model" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=fastapi-hello-model&theme=dracula" width="100%" />
+  </a>
+  <a href="https://github.com/mickey4653/dockerized-model-api" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=dockerized-model-api&theme=dracula" width="100%" />
   </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
   </a>
   <a href="https://github.com/mickey4653/sports-scribe" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=sports-scribe&theme=dracula" width="100%" />
-  </a>
-  <a href="https://github.com/mickey4653/todo-list-app-backend" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=todo-list-app-backend&theme=dracula" width="100%" />
   </a>
 </div>
 
