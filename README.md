@@ -123,11 +123,11 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-  <a href="https://github.com/mickey4653/rag_docs_qna" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=rag_docs_qna&theme=dracula" width="100%" />
-  </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
+  </a>
+  <a href="https://github.com/mickey4653/rag_docs_qna" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=rag_docs_qna&theme=dracula" width="100%" />
   </a>
   <a href="https://github.com/mickey4653/vibe-check-bot" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=vibe-check-bot&theme=dracula" width="100%" />
