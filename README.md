@@ -123,6 +123,9 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <a href="https://github.com/mickey4653/devflow-ai" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=devflow-ai&theme=dracula" width="100%" />
+  </a>
   <a href="https://github.com/mickey4653/mickey4653" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=mickey4653&theme=dracula" width="100%" />
   </a>
@@ -131,9 +134,6 @@
   </a>
   <a href="https://github.com/mickey4653/work-order-schedule-timeline-app" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=work-order-schedule-timeline-app&theme=dracula" width="100%" />
-  </a>
-  <a href="https://github.com/mickey4653/devflow-ai" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=devflow-ai&theme=dracula" width="100%" />
   </a>
 </div>
 
