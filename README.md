@@ -123,6 +123,9 @@
 
 <!-- START_SECTION:recent-repositories -->
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <a href="https://github.com/mickey4653/ai-immigration-compliance-copilot" style="flex: 0 0 auto; width: 45%; margin: 5px;">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=ai-immigration-compliance-copilot&theme=dracula" width="100%" />
+  </a>
   <a href="https://github.com/mickey4653/ai-rag-system" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=ai-rag-system&theme=dracula" width="100%" />
   </a>
@@ -131,9 +134,6 @@
   </a>
   <a href="https://github.com/mickey4653/devflow-ai" style="flex: 0 0 auto; width: 45%; margin: 5px;">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=devflow-ai&theme=dracula" width="100%" />
-  </a>
-  <a href="https://github.com/mickey4653/ai-immigration-compliance-copilot" style="flex: 0 0 auto; width: 45%; margin: 5px;">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mickey4653&repo=ai-immigration-compliance-copilot&theme=dracula" width="100%" />
   </a>
 </div>
 
