@@ -12,7 +12,7 @@
 
 <h2 align="center">👨‍🎓 GitRoll</h2>
 <div align="right">
- <a href="https://gitroll.io/profile/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3" target="_blank"><img height="150" width="150" src="https://gitroll.io/api/badges/profiles/v1/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3?theme=dracula" alt="GitRoll Profile Badge"/></a>
+ <a href="https://gitroll.io/profile/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3" target="_blank"><img height="150" src="https://gitroll.io/api/badges/profiles/v1/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3?theme=dracula" alt="GitRoll Profile Badge"/></a>
 </div>
 
 <h2 align="center">💻 Skills & Technologies</h2>
