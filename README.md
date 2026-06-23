@@ -11,7 +11,7 @@
 
 
 <h2 align="center">👨‍🎓 GitRoll</h2>
-<div align="right">
+<div align="center">
  <a href="https://gitroll.io/profile/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3" target="_blank"><img src="https://gitroll.io/api/badges/profiles/v1/u5j5oWuzB3uPTj46QVqNCKMhPIpJ3?theme=dracula" alt="GitRoll Profile Badge"/></a>
 </div>
 
